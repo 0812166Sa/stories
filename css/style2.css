@@ -1,0 +1,157 @@
+body {
+    min-height: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 970px;
+
+}
+
+h2 {
+    margin-right: 490px;
+}
+
+
+.comm {
+
+    width: 800px;
+    border: 1px solid #000;
+    background-color: aliceblue;
+    min-height: 90px;
+    margin-bottom: 10px;
+}
+
+.registr {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #973535;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.area {
+    padding-left: 60px;
+}
+
+.registr:hover {
+    color: #e2c75a;
+}
+
+#cl {
+    display: none;
+    position: absolute;
+    right: 550px;
+    top: 350px;
+    background-color: rgb(237, 108, 159);
+    width: 400px;
+}
+
+#op {
+    margin-left: 650px;
+}
+
+#commentBlock {
+    display: none;
+    position: relative;
+    width: 800px;
+    border: 1px solid #000;
+    min-height: 90px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.comment2 {
+    display: table;
+    width: 800px;
+    border: 1px solid #000;
+    border-bottom: 0;
+    background-color: aliceblue;
+    min-height: 90px;
+    margin: auto;
+
+
+}
+
+a.dele {
+    display: block;
+    text-decoration: rgb(237, 108, 159);
+    color: #973535;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.dele {
+    width: 800px;
+    height: 20px;
+    border: 1px solid #000;
+    border-top: 0;
+}
+
+.button {
+    margin: 10px 100px 20px 65px;
+    display: block;
+    background: grey;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #126124;
+}
+
+#crest:hover {
+    opacity: 0.4;
+}
+
+#crest:before,
+#crest:after {
+    left: 380px;
+    position: absolute;
+    content: ' ';
+    height: 23px;
+    width: 2px;
+    background-color: #333;
+}
+
+#crest:before {
+    transform: rotate(45deg);
+}
+
+#crest:after {
+    transform: rotate(-45deg);
+}
+
+.paginator {
+    text-align: center;
+}
+
+p.page2 {
+    font-size: 30px;
+    color: #6c1669;
+}
+
+.paginator,
+a.page {
+    color: #6c1669;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.paginator,
+a.page:hover {
+    color: darkorange;
+}
+
+.re {
+    min-height: 900px;
+    background-color: cornsilk;
+}
